@@ -7,13 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CPH-Sem3-TripPlanner-Backend" />
+        <module name="Trip_planner" />
         <module name="dat3_ca2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Trip_planner" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CPH-Sem3-TripPlanner-Backend" options="-endorseddirs C:\3-semester\CPH-Sem3-TripPlanner-Backend\target/endorsed" />
+      <module name="Trip_planner" options="-endorseddirs C:\3-semester\Trip_planner\target/endorsed" />
       <module name="dat3_ca2" options="-endorseddirs C:\Users\chris\IdeaProjects\CPH-Sem3-TripPlanner-Backend\target/endorsed" />
     </option>
   </component>
